@@ -1,0 +1,19 @@
+# folders
+.metadata/
+.idea/
+.settings/
+cache/
+target/
+results/
+test-output/
+.git/
+
+# files
+.project
+.classpath
+.DS_Store
+build*.xml
+
+# drivers
+chromedriver*
+geckodriver*
