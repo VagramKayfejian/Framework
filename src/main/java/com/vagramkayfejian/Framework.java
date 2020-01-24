@@ -16,7 +16,7 @@ public class Framework {
 		if(browser.equals("chrome")) {
 			if(is_remote.equals("false")) {
 
-				System.setProperty("webdriver.chrome.driver", "chromedriver");   //you only need options if you were to use them ex: maximizing window, or open in oncog etc.
+				System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");   //you only need options if you were to use them ex: maximizing window, or open in oncog etc.
 				Browser.setDriver(new ChromeDriver(new ChromeOptions()));
 			}
 			else
@@ -31,7 +31,7 @@ public class Framework {
 		}
 		else if(browser.equals("firefox")) {
 			if(is_remote.equals("false")) {
-				System.setProperty("webdriver.firefox.driver", "geckodriver");  //you only need options if you were to use them ex: maximizing window, or open in oncog etc.
+				System.setProperty("webdriver.firefox.driver", "Drivers/geckodriver");  //you only need options if you were to use them ex: maximizing window, or open in oncog etc.
 				Browser.setDriver(new FirefoxDriver(new FirefoxOptions()));
 			}
 		}
